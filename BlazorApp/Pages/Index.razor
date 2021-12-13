@@ -1,0 +1,33 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<HeadContent>
+    <meta name="description" content="new description" />
+</HeadContent>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<BlazorApp.Components.MyComponent Name="@Test" />
+
+<DynamicComponent Type="@typeof(BlazorApp.Components.MyComponent)" Parameters=@parameters ></DynamicComponent>
+
+<PageTitle>Counter</PageTitle>
+<ErrorBoundary>
+    <ChildContent>
+        <Counter></Counter>
+    </ChildContent>
+    <ErrorContent>Error happend</ErrorContent>
+</ErrorBoundary>
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+
+    private IDictionary<string, object> parameters = new Dictionary<string, object>() { {"Name", "Free" }};
+
+    [Parameter]
+    [SupplyParameterFromQuery(Name="q")]
+    public string Test { get; set; }
+}
