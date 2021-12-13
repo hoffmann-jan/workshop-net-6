@@ -8,8 +8,13 @@
 
 [ASP-Core-Net-6](https://devblogs.microsoft.com/dotnet/announcing-asp-net-core-in-net-6/)
 
-asp.net-hacker.rocks - Blog
-JuergenGutsch - Git => https://github.com/JuergenGutsch/developer-open-space-aspnet
+### Juergen Gutsch
+
+Blog
+
+[asp.net-hacker.rocks](https://asp.net-hacker.rocks)
+
+[Git](https://github.com/JuergenGutsch) - developer-open-space-aspnet
 
 ## Tools von Jürgen Gutsch
 
@@ -26,11 +31,12 @@ dotnet add package GenFu
 
 IAsyncDisposable
 
-IAsyncEnumerable zur reduzierung von Speicherverbrauch weil nicht gebuffert
-ist duchimplementiert von EF 6 bis Outputstream im net 6
+IAsyncEnumerable zur Reduzierung von Speicherverbrauch, weil nicht gebuffert
+  
+Ist duchimplementiert von EF 6 bis Outputstream im Net 6
 
-
-dotnet watch run => dotnet watch
+Kürzere Schreibweise:
+dotnet watch run => dotnet watch 
 
 
 Gefahr bei Verwendung von Blazor WASM - zu viel Logik in den CLient zu haben
