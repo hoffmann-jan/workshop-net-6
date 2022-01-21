@@ -20,7 +20,7 @@ Blog
 
 Cmder - CMD-Tool
 Typora - Markdown Editor
-Insomnia - GPRC Client ähnlich Postman => Insomnia.rest
+Insomnia - GRPC Client ähnlich Postman => Insomnia.rest
 
 ## Demo Daten Tool
 
